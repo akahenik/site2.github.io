@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reipoll Line</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<h1 class="t">Reipoll Line</h1>
+    <div class="block1" id="block">
+        <div class="text1">
+
+            <h1 class="t">Первое включение, проверка системы</h1>
+            <h3>Нажми пуск для старта и проверки линии,<br>
+            после зелёного сигнала одобрения начинайте дальнейшую настройку</h3>
+        </div>
+        <button class="start" id="start">Проверка</button>
+    </div>
+
+    <div class="block2">
+        <div class="text1">
+            <h1 class="t">Настройка подачи</h1>
+
+            <label for="speed1" class="speed1">1</label>
+            <input class="ts1" type="number">
+
+            <label for="speed2" class="speed2">2</label>
+            <input class="ts2" type="number">
+
+            <label for="speed3" class="speed3">3</label>
+            <input class="ts3" type="number">
+
+            <h3>Установите комфортную для работы скорость подачи<br>
+            и после установки всех параметров начните работу</h3>
+
+        </div>
+        
+        <button class="start-pause" id="start-pause-1">Пуск</button>
+    </div>
+
+    <div class="block3">
+
+    	<div class="text1">
+    	<h1 class="t">Настройка бункера</h1>
+    		
+    	
+
+    		<label for="bunker1" class="bunker1">Толщина заготовки</label>
+            <input class="b1" type="number">
+            <label for="bunker2" class="bunker2">мм</label><br>
+
+            <label for="bunker2" class="bunker2">Толщина слоя бункер 1</label>
+            <input class="b2" type="number">
+            <label for="bunker2" class="bunker2">мм</label><br>
+
+            <label for="bunker3" class="bunker3">Толщина слоя бункер 2</label>
+            <input class="b3" type="number">
+            <label for="bunker2" class="bunker2">мм</label><br>
+
+    	<h3>введите необходимые данные в подсвеченные поля<br>
+    	для установки правильного положения бункеров</h3>
+    	</div>
+    	
+    	<div class="bunkerp1">
+
+            <input class="bu1" type="number">
+
+            	<div class="bunk1">
+            		<div class="circle"></div>
+            		<p>бункер 1</p>
+            		<div class="circle2"></div>
+            	</div>
+
+            <input class="bu2" type="number">
+
+    	</div>
+
+
+    	<input class="or" type="number">
+
+
+
+    	<div class="bunkerp2">
+    		
+    		<input class="bu3" type="number">
+
+    			<div class="bunk2">
+    				<div class="circle3"></div>
+            		<p>бункер 2</p>
+            		<div class="circle4"></div>
+    			</div>
+
+    		<input class="bu4" type="number">
+    	</div>
+  		
+    </div>
+
+    	
+
+    <div class="block4">
+    	<div class="text1">
+    	<h1 class="t">Замена сетки</h1>
+    	<h3>Для замены сетки нажмите кнопку паузы на станке<br> или интерфейсе
+    	программы<br> для возобновления работы отожмите кнопку</h3>
+    	</div>
+
+    	<button class="start-pause" id="start-pause-2">Пуск</button>
+    </div>
+
+    <div class="block5">
+    	<div class="text1"> 
+    		<h1 class="t">Настройка реза сетки</h1>
+    		<h2>Поправка реза в мм</h2>
+    		
+    		
+    		<h3>Если есть постоянное смещение по резу<br> введите в этом поле поправку</h3>
+    	</div>
+    	<div class="text1">
+    		<label for="txt" class="txt">Смещение в мм</label><br>
+            	<input class="mm" type="number">
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
